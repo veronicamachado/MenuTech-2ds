@@ -39,3 +39,41 @@ header ul li a:hover{
 main {
     background-color: #FECA04;
 }
+.item{
+    background-color: #fff;
+    width: calc(33% - 40px);
+    margin: 20px;
+    display: inline-block;
+    border-radius: 40px;
+
+}
+.thumb img{
+    width: 100%;
+}
+.titulo{
+    position: absolute; 
+    margin-top: -40px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.description {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.price {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #CA6754;
+    text-align: center;
+}
+.descripton p {
+    height: 65px;
+}
+.thumb {
+    height: 240px;
+    overflow: hidden;
+}

@@ -89,3 +89,21 @@ main {
 .description p {
     height: 70px;
 }
+
+#rodape p{
+    font-size: 20px;
+
+}
+#rodape b{
+    color: #FECA04;
+}
+
+@media ( max-width:980px ) {
+    header{
+        width: 90%;
+        padding: 5%;
+    }
+    header ul, header h1 (
+    float: none 
+    )
+}
